@@ -1,0 +1,24 @@
+package cn.kgc57.alipayzfb.config;
+
+public class AlipayConfig {
+
+
+    public  static  String URL="https://openapi.alipaydev.com/gateway.do";  //支付宝网关url
+    public  static  String APP_ID="2016101500690055";//应用id
+    public  static  String APP_PRIVATE_KEY="MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCmGXWwlu5jtfhRHuKs3FAyKNb3a0chHRONDdQPeKmu8Jwtg8DRe4YzROaQn2dIjWsNbLuLycDU/PppQ5pHHkGwJr+6G7T4R/U2pcfJl8Bd3aPR3dbeRYGG2uIEv58yYUHTMgQqRjAr9qvy/MmpC0QaYiBPZvPbM3+TFc27hYLgQuIsNAaC8CFkGCg09C6JP7GQtyMj5EjMUwPL/s5jhd+i0cYeFvWXaiYn4EtothO+c0nOADZsGyK9R7A3JHJOxmE9Zm88NV2oqHWnsdkQvz368ChpzN9Z1WGcLv3zPlG4IgTbNKjqWD2jY4ml9+aPufbKCDlVxztXTIOxOpwG14aBAgMBAAECggEBAIDGWGJSgfw4Ro7N/Tu7i0l4NEGaoIjhvBit0e00xYll7g+ziDhhJkh1cLRLgY3UZl0AId9cye3XPGWEDgZ5RMBHKnolpQag81Is8VowFuovPiUlcsLc7HEbHgREdC5hDOGqc2Q7CnnrQqCer9Ipc+Follg5H3Kg2JW2X8y01CT9Lp0M3gzLU5J0U8mwjDdefaGJ+UydHFh6ipsekWIqvRS5SYSq2dcXQmQU0CxWXWjSPeLhiZqn47g2XodtrGunEMBHBKFTFFwRml7WuM0cyBsknyKEucAGS6x84SuDRfu3ta8IxqkSVZZToCrrtSTQKkdblGWLFEal1rFKapx2TmkCgYEA/8/LbOGWpWjkClm9MP/fsxM9qIYjZKBQ40CTn5xWhgDQreEorfrgCiKwQjQfe3dBIMWF+n0AqAznZ/vXWtMkGVs/wXYL6RDUgPEaxo5KCQtqJudNXdYGHZfjC3E+ypfVU00wv7l/eGtRMwJgSGp8bsLi2/gfGyoXmpeU4RpYqUcCgYEApjjCeBtKoRrqZ2gOUjEegqL2SRNwF02uLBWOFgkyektXofUPvfkt/YgEp3w9yibukmkBcQwwAFYjZ5yXWR3C7W17yud8uzmw6rRtnkuSZJvxc/SwRqxEgAzWxshkY31hUEpG6azd0MYTxuQvVUSK0IhXPF5vb0z30Yj4RPX7tfcCgYEApuLmQIMvZ3v1gXcoAQZ85vO/fuj7wBMCki8336H7pHJ1sWo5wr7vWE1nFdmxTDfxqjKShGb2favlb6YRybQDUfOAtXKQtJ0BNZmVsUF0tU/YEcdGZthQpw/G1Fkt8Ld7OVwbWIjoyyOgFpoPPE8UHKJRo9XMXUlpmrYXL3+jpdMCgYAhVaqyWY7K5lHx8O1GUHF082d+2jYVhk+SqbP3+Vo1Klzlrva8O3ecq6V7TTA7FTmtBP/0AuSxfJTXF5FGnvBTmyxDUc8y4Ov49bwyDafLI3b1sTGUysFmCK0d6lwvk5prdqnn/PHzB3Y54dMYP4mzLlSIV8vzPzVHwTdA5S/YmwKBgHGiPn7MVQKvSOL3NmcrUkHUKi88JImJOdf5ARrb2IKG04U5jhylCxz2HIM/Oc1mLjNBZdbzMvM6DTWbxH/ylLy6m4/s7mV2QGnYKhKqlsWC84Ax5IJR5rLo9wNmXlyFfCSEtCMM8nEsz0jpxLd+375vPFipLPETS4dzjEkdmmHh";//应用商家私钥
+    public  static  String FORMAT="json";//
+    public  static  String CHARSET="UTF-8";//字符集
+    public  static  String ALIPAY_PUBLIC_KEY="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArHKXec2SXEgfihH+zpfV+LIg2De9JEJiwROEn2VnMz4oK7OItB/lGg8Jrc4qvQv2obbEyKnSdOAVLdphQ9EEXVvEpoV2G/nPhJ9HyoflxFMeRZiDrLNAa62+uiuXEPQQUmu4NY71fgL0f2aKlazbWGnxzrak29GkAZqqK6Tz1AvccjRr14vYHwZMlzk6ZokAZ/d7rg/XBqqCNsSfTVOdNJ2FCWqz8WLEHq87pD80AgtE5YuiQc5+r8z5oqeeWjKG3nDlLMSwQiYeAGcYm0NZ2jMKriadhUqKgnfNy/AwdfwRwUsWliSyCaASOYyQ/La0e/e4XbJ0wHo34wUAmv9J6QIDAQAB";
+    public  static  String SIGN_TYPE="RSA2";//签名类型
+    public  static  String return_url="http://localhost:8080/return";//回调地址（同步）
+    public  static  String notify_url="http://localhost:8080/notify";//通知地址（异步）
+
+
+
+
+
+
+}
+
+
+
